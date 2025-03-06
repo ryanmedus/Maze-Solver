@@ -1,5 +1,5 @@
 # Maze Solver
 
-![screenshot](maze.png)
+![screenshot](maze.PNG)
 
 A simple maze solver implementing queues and stacks.
