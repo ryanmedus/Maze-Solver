@@ -11,9 +11,9 @@ using namespace std;
 
 int main()
 {
-	Map map("C:/Users/ryanm/OneDrive/Desktop/Maps/3x3map.txt");
-	Map map1("C:/Users/ryanm/OneDrive/Desktop/Maps/6x6map.txt");
-	Map map2("C:/Users/ryanm/OneDrive/Desktop/Maps/10x10map.txt");
+	Map map("3x3map.txt");
+	Map map1("6x6map.txt");
+	Map map2("10x10map.txt");
 	Tracker tracker(map.getStartCell());
 	Tracker tracker1(map1.getStartCell());
 	Tracker tracker2(map2.getStartCell());

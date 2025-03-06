@@ -54,4 +54,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="3x3map.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="6x6map.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="10x10map.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>

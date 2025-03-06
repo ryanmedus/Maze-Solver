@@ -12,11 +12,14 @@ Map::Map(string pathToMapFile)
 	if (infile.good())
 	{
 		char type;
-		infile >> type;
 		while (infile.good())
 		{
-			cells.enqueue(type);
-			infile >> type;
+			while (infile >> type)
+			{
+				type = toupper(type); 
+				cells.enqueue(type);
+			}
+			
 		}
 	}
 	dimension = sqrt(cells.size());

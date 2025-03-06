@@ -142,6 +142,11 @@
     <ClInclude Include="Stack.h" />
     <ClInclude Include="Tracker.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="10x10map.txt" />
+    <Text Include="3x3map.txt" />
+    <Text Include="6x6map.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
